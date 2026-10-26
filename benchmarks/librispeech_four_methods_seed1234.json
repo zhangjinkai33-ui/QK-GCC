@@ -1,0 +1,274 @@
+{
+  "owner": "jinkz33@XMU&UofG",
+  "status": "complete",
+  "seed": 1234,
+  "split": "full LibriSpeech V2 test grid",
+  "methods": [
+    "GCC-PHAT",
+    "PGCC-PHAT (Cls.)",
+    "NGCC-PHAT",
+    "QK-GCC"
+  ],
+  "started_utc": "2026-10-26T01:11:05.238524+00:00",
+  "checkpoint_and_source_hashes": {
+    "qkgcc_checkpoint_sha256": "05ad9095d0683380bc950bf440f6ffa54b2b610f5931b42eb4f78942112c37fc",
+    "pgcc_checkpoint_sha256": "6f7b6679e53ebfa3ca655df2b8532b969f8014abf4197d7c3e83db79db7010d8",
+    "ngcc_checkpoint_sha256": "77662493ae81db6bd1746b48a1bcfc86e40a114593de15f5dfcca548ea56c381",
+    "pgcc_source_sha256": "2bce46767d30480e942128184b1ced137e173489ea47de34c1c8a27bbd551bca",
+    "ngcc_source_sha256": "2bce46767d30480e942128184b1ced137e173489ea47de34c1c8a27bbd551bca"
+  },
+  "qkgcc_summary_sha256": "7579b56d99c21bdc25b116008e2758d2ff75908d9ed912e16958e0d9484d2fc3",
+  "qkgcc_origin": "existing complete V4S evaluation; five cached conditions independently checked",
+  "sample_rate": 16000,
+  "sound_speed": 343,
+  "max_tau": 23,
+  "reference": "rounded delay grid",
+  "tolerance": "absolute error <10cm",
+  "audio_distributed": false,
+  "conditions": [
+    {
+      "snr": 0,
+      "t60": 0.2,
+      "n": 3195,
+      "origin": "matched cached predictions",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 0.03341349998663645
+    },
+    {
+      "snr": 0,
+      "t60": 0.4,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 34.64557059999788
+    },
+    {
+      "snr": 0,
+      "t60": 0.6,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 41.9684500000003
+    },
+    {
+      "snr": 0,
+      "t60": 0.8,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 43.94344459999411
+    },
+    {
+      "snr": 0,
+      "t60": 1.0,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 26.200087900011567
+    },
+    {
+      "snr": 6,
+      "t60": 0.2,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 35.36808129999554
+    },
+    {
+      "snr": 6,
+      "t60": 0.4,
+      "n": 3195,
+      "origin": "matched cached predictions",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 0.028841100007412024
+    },
+    {
+      "snr": 6,
+      "t60": 0.6,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 27.355615799999214
+    },
+    {
+      "snr": 6,
+      "t60": 0.8,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 40.291717999993125
+    },
+    {
+      "snr": 6,
+      "t60": 1.0,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 40.65157970000291
+    },
+    {
+      "snr": 12,
+      "t60": 0.2,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 35.1015558999934
+    },
+    {
+      "snr": 12,
+      "t60": 0.4,
+      "n": 3195,
+      "origin": "matched cached predictions",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 0.03510609999648295
+    },
+    {
+      "snr": 12,
+      "t60": 0.6,
+      "n": 3195,
+      "origin": "matched cached predictions",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 0.02850410000246484
+    },
+    {
+      "snr": 12,
+      "t60": 0.8,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 40.03392739999981
+    },
+    {
+      "snr": 12,
+      "t60": 1.0,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 38.54436790000182
+    },
+    {
+      "snr": 18,
+      "t60": 0.2,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 37.35832450000453
+    },
+    {
+      "snr": 18,
+      "t60": 0.4,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 41.16827789999661
+    },
+    {
+      "snr": 18,
+      "t60": 0.6,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 44.2323713000078
+    },
+    {
+      "snr": 18,
+      "t60": 0.8,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 37.609456899997895
+    },
+    {
+      "snr": 18,
+      "t60": 1.0,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 34.50909870000032
+    },
+    {
+      "snr": 24,
+      "t60": 0.2,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 28.6211420000036
+    },
+    {
+      "snr": 24,
+      "t60": 0.4,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 33.38487009999517
+    },
+    {
+      "snr": 24,
+      "t60": 0.6,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 27.016493599992828
+    },
+    {
+      "snr": 24,
+      "t60": 0.8,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 27.443422199998167
+    },
+    {
+      "snr": 24,
+      "t60": 1.0,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 27.76317210000707
+    },
+    {
+      "snr": 30,
+      "t60": 0.2,
+      "n": 3195,
+      "origin": "matched cached predictions",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 0.06876950000878423
+    },
+    {
+      "snr": 30,
+      "t60": 0.4,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 45.9924861999898
+    },
+    {
+      "snr": 30,
+      "t60": 0.6,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 56.96858339999744
+    },
+    {
+      "snr": 30,
+      "t60": 0.8,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 36.74137430000701
+    },
+    {
+      "snr": 30,
+      "t60": 1.0,
+      "n": 3195,
+      "origin": "fresh baseline inference",
+      "sample_ids_sha256": "d399d6cae82d400f12f568f4152d7511887b6fa124cda0d6f25931a10834a7f3",
+      "seconds": 52.25344659999246
+    }
+  ],
+  "completed_utc": "2026-10-26T01:26:40.628584+00:00",
+  "rows": 120,
+  "n_per_method": 95850,
+  "csv_sha256": "24e9e0e3fa7754e8c7963d918bd7e326bfc150000098f19400249cc59f5ceef8"
+}

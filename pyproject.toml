@@ -20,6 +20,9 @@ dependencies = [
   "tqdm>=4.66",
 ]
 
+[project.optional-dependencies]
+visualization = ["matplotlib>=3.7"]
+
 [tool.setuptools.packages.find]
 include = ["qkgcc*"]
 

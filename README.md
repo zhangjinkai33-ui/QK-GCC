@@ -36,6 +36,23 @@ Zero-shot evaluation uses the original speech-trained checkpoints without fine-t
 
 ![Accuracy curves](assets/accuracy_curves.png)
 
+### Detailed test results
+
+The [full 30-condition table](docs/results.md) compares **GCC, PGCC, NGCC, and
+QK-GCC** on every SNR/T60 combination, listing MAE, RMSE, and Acc@10cm for the same
+95,850 test pairs. Learned methods use **seed-1234** checkpoints. These results
+are separate from the three-seed paper summaries above.
+
+The following three examples illustrate different noise/reverberation conditions.
+Each comparison includes all 3,195 pairs, including outliers. Scatter axes and MAE
+are in **cm**; errors in the complete table are in **samples**.
+
+![SNR 0 dB, T60 0.2 s](assets/scatter_snr0_t60_0.2.png)
+
+![SNR 12 dB, T60 0.4 s](assets/scatter_snr12_t60_0.4.png)
+
+![SNR 12 dB, T60 0.6 s](assets/scatter_snr12_t60_0.6.png)
+
 ## Installation
 
 Python 3.10 or newer is recommended. A CUDA-enabled PyTorch installation is optional but recommended for training.
@@ -153,6 +170,8 @@ train.py                 training entry point
 evaluate.py              30-condition evaluation entry point
 checkpoints/             representative released checkpoint
 assets/                  paper figures
+benchmarks/              condition metrics and aligned prediction results
+docs/                    detailed results and visualization protocol
 tests/                   lightweight model checks
 ```
 
