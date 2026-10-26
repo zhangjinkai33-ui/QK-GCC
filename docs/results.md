@@ -4,12 +4,7 @@ Maintainer: `jinkz33@XMU&UofG`
 
 ## Complete SNR × T60 comparison
 
-All four methods are evaluated on the same 30 conditions: 3,195 pairs per condition,
-95,850 pairs in total. Learned methods use seed1234 checkpoints; PGCC and NGCC
-use classification heads. These are single-seed results, not the paper three-seed averages.
-
-**MAE and RMSE are in samples; Acc is Acc@10cm (%).** Bold indicates the best
-value in each condition, including ties. The table may scroll horizontally.
+Seed 1234. MAE/RMSE: samples; Acc@10cm: %. **Bold**: best per condition.
 
 [Download full-precision CSV](../benchmarks/librispeech_four_methods_seed1234_wide.csv)
 

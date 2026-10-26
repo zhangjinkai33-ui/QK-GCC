@@ -38,10 +38,8 @@ Zero-shot evaluation uses the original speech-trained checkpoints without fine-t
 
 ### Detailed test results
 
-The [full 30-condition table](docs/results.md) compares **GCC, PGCC, NGCC, and
-QK-GCC** on every SNR/T60 combination, listing MAE, RMSE, and Acc@10cm for the same
-95,850 test pairs. Learned methods use **seed-1234** checkpoints. These results
-are separate from the three-seed paper summaries above.
+The [complete SNR × T60 comparison](docs/results.md) reports MAE, RMSE, and
+Acc@10cm for GCC, PGCC, NGCC, and QK-GCC (seed 1234).
 
 The following three examples illustrate different noise/reverberation conditions.
 Each comparison includes all 3,195 pairs, including outliers. Scatter axes and MAE
